@@ -6,7 +6,7 @@ import Header from "./header"
 import '../styles/index.scss'
 import Footer from '../components/Footer'
 import { Row, Col } from 'reactstrap'
-import Sidebar from "./Sidebar"
+import Sidebar from "./sidebar"
 
 const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => ( //props.pageTitle
   <StaticQuery
